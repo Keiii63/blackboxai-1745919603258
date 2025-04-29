@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Instagram Gallery</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 min-h-screen flex flex-col">
+  <header class="bg-white shadow-md sticky top-0 z-10">
+    <div class="container mx-auto px-4 py-3 flex items-center justify-between">
+      <div class="text-2xl font-bold text-pink-600 cursor-pointer select-none">
+        <i class="fab fa-instagram"></i> InstaGallery
+      </div>
+      <nav>
+        <a href="login.html" class="text-gray-700 hover:text-pink-600 transition duration-300">Login</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container mx-auto px-4 py-8 flex-grow">
+    <h1 class="text-3xl font-semibold mb-6 text-center text-gray-800">Gallery</h1>
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+      <img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300" alt="Gallery Image 1" class="rounded-lg shadow-md hover:scale-105 transition-transform duration-300 cursor-pointer" />
+      <img src="https://images.pexels.com/photos/34950/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=300" alt="Gallery Image 2" class="rounded-lg shadow-md hover:scale-105 transition-transform duration-300 cursor-pointer" />
+      <img src="https://images.pexels.com/photos/459225/pexels-photo-459225.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300" alt="Gallery Image 3" class="rounded-lg shadow-md hover:scale-105 transition-transform duration-300 cursor-pointer" />
+      <img src="https://images.pexels.com/photos/210186/pexels-photo-210186.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300" alt="Gallery Image 4" class="rounded-lg shadow-md hover:scale-105 transition-transform duration-300 cursor-pointer" />
+      <img src="https://images.pexels.com/photos/1236701/pexels-photo-1236701.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300" alt="Gallery Image 5" class="rounded-lg shadow-md hover:scale-105 transition-transform duration-300 cursor-pointer" />
+      <img src="https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300" alt="Gallery Image 6" class="rounded-lg shadow-md hover:scale-105 transition-transform duration-300 cursor-pointer" />
+      <img src="https://images.pexels.com/photos/459225/pexels-photo-459225.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300" alt="Gallery Image 7" class="rounded-lg shadow-md hover:scale-105 transition-transform duration-300 cursor-pointer" />
+      <img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300" alt="Gallery Image 8" class="rounded-lg shadow-md hover:scale-105 transition-transform duration-300 cursor-pointer" />
+    </div>
+  </main>
+
+  <footer class="bg-white shadow-inner py-4 text-center text-gray-500 text-sm">
+    &copy; 2024 InstaGallery. All rights reserved.
+  </footer>
+</body>
+</html>
